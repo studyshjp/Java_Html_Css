@@ -1,6 +1,6 @@
 /**
  *  
-1. score = num 
+1. score
 2. addTenPoints()
 3. addTenPoints() *2
  */
