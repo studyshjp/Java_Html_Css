@@ -6,10 +6,10 @@
  */
 //=const score=0;
 // let score = 0;
-let num = 0;
+let score = 0;
 function addTenPoints() {
-	num = num + 10;
-	console.log("num"+num);
+	score = score + 10;
+	console.log("score"+score);
 	
 }
 addTenPoints();
@@ -27,7 +27,7 @@ const message = document.querySelector("#message");
 const infobutton = document.querySelector("#infobutton");
 
 
-const numElement = document.querySelector("#num");
+const scoreElement = document.querySelector("#score");
 const clickButton = document.querySelector("#clickButton");
 const resetButton = document.querySelector("#resetButton");
 // const messageElement = document.querySelector("#message");
@@ -48,15 +48,15 @@ function info() {
 	alert("greeting"+message.textContent);
 }
 
-function addnum() {
-num = num + 1;
-numElement.textContent = num;
+function addscore() {
+score = score + 1;
+scoreElement.textContent = score;
 messageElement.textContent = "win";
 }
 
 function reset() {
-num = 0;
-numElement.textContent = num;
+score = 0;
+scoreElement.textContent = score;
 messageElement.textContent = "reset";
 }
 
@@ -70,5 +70,5 @@ messageElement.classList.add("success");
 messageElement.classList.remove("success");
 messageElement.classList.toggle("success");
 
-clickButton.addEventListener("click", addnum);
+clickButton.addEventListener("click", addscore);
 resetButton.addEventListener("click", reset);
