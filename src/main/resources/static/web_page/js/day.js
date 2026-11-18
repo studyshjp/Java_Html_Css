@@ -67,12 +67,32 @@ const input=document.querySelector("#taskInput");
 const item=document.activeElement("li");
 
 
-item.textContent = input.value;
-
-const taskList=doument.querySelector("#");
+// <ul>
+const taskList=document.querySelector("#tasklist");
 taskList.append(item);
 
+const input = document.querySelector("taskInput");
+// alert("내용"+input.value);
 
+// li
+ input.value="";
+
+if (input.Value.trim() === "") 
+	alert("none");
+	return;
+
+// item
+item.textContent = input.value;
+
+const item=document.createElement("li");
+item.textContent=input.value;
+
+item.addEventListener(
+	"item", function() {
+		item.style.textDecoration=line-through;
+	}
+	
+);
 
 /*
 
