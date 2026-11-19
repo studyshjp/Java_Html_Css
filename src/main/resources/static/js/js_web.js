@@ -30,6 +30,9 @@ const infobutton = document.querySelector("#infobutton");
 const scoreElement = document.querySelector("#score");
 const clickButton = document.querySelector("#clickButton");
 const resetButton = document.querySelector("#resetButton");
+
+
+
 // const messageElement = document.querySelector("#message");
 
 
