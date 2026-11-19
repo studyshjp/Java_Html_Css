@@ -36,6 +36,7 @@ const task = {
 title: "HTML 연습하기",
 done: false
 };
+const reset=document.querySelector("#reset");
 
 // 3. button 실행할 함수 
 function page1Click() {
@@ -47,6 +48,9 @@ function page2Click() {
 function page3Click() {
 	alert("3" + buttonColor[2]);
 }
+
+function
+
 
 // 4. event 실행할 함수
 page1.addEventListener("page1", page1Click);
