@@ -125,3 +125,27 @@ footer {
 	
 }
 
+.focus {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	padding: 28px 32px;
+	border-radius: 22px;
+	color: white;
+	background: linear-gradient(115deg, #287a5b, #459b75);
+	box-shadow: 0 14px 35px rgba(40,122,91,.15)
+	
+}
+.focus .new {
+	color:#c8ead8;
+}
+
+.focus h2 {
+	margin-bottom: 8px;
+	font-size: clamp(20px, 3vw, 26px);
+	letter-spacing: -.8px;
+	
+	
+	
+}
