@@ -49,7 +49,12 @@ function page3Click() {
 	alert("3" + buttonColor[2]);
 }
 
-function
+function reset_click () {
+	alert("reset");
+	
+}
+
+reset.addEventListener("click", reset_click)
 
 
 // 4. event 실행할 함수
