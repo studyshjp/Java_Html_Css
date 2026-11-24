@@ -33,19 +33,57 @@
 </header>
 <main>
 <section class="focus">
-<div class="new">
-<p>what's new</p>
+<div>
+<p class="new">what's new</p>
 <h2>Daily Plan</h2>
 <p>now</p>
 </div>
 
-<div>
-
+<div class="focused" aria-hidden="true">
+&checkmark;
 </div>
 </section>
 
+<section class="grid" aria-table="오늘의 현황">
+<article class="gridtable">
+<span class="gridtitle">total</span>
+<strong id="total">0</strong>
+<span class="unit">unit</span>
+</article>
+
+<article class="gridtable">
+<span class="gridtitle">finish</span>
+<strong id="finish">0</strong>
+<span class="unit">unit</span>
+</article>
+
+<article class="gridtable">
+<div class="progress">
+<span class="gridtitle">process</span>
+<strong id="process">0%</strong>
+</div>
+</article>
+
+<div 
+class="progresstable"
+role="progresstitle"
+aria-label="progress"
+aria-valuemin="0"
+aria-valuemax="100"
+aria-valuenow="0">
+<div id="prfine" class="prfine">
+</div>
+</div>
+
+
+<div>
+</div>
+
+</section>
 
 </main>
+
+
 
 
 <footer>
